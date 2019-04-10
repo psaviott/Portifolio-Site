@@ -1,0 +1,53 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #747704;
+}
+
+.text-muted {
+  color: #bcbbbb;
+}
+.text-thin  {
+  font-weight: 100;
+}
+
+.title-super {
+  font-size: 60px;
+  color: #777;
+}
+
+.title-responsive {
+  display: block;
+  max-width: 100%;
+}
+
+.title-logo {
+  margin-top: 15px;
+  width: 25%;
+}
+
+picture img {
+  width: 100%;
+  border: 0;
+  vertical-align: middle;
+}
+
+picture.banner img   {
+  max-height: 35em;
+  max-width: 100%;
+}
+.line-sep {
+  margin-top: 0.5%;
+  background-color: #eee;
+  height: 1.5px;
+}
+
+.line-5 {
+  margin-top: 1%;
+}
+.cabecalho {
+  display: inline;
+}
+.row {
+  margin-left: 0;
+}

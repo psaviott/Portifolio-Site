@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta name="description" content="Udacity Responsive Images course project" />
+  <meta name="Philipe Sena Saviott" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta charset="utf-8">
+  <title>Portifolio Philipe Saviott</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/media.css" />
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+  <div class="container">
+    <header id="cabecalho" class="row">
+      <div class="col-md-6">
+        <img class="img-responsive title-logo" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDY0IDY0IiBoZWlnaHQ9IjY0cHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0cHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxnPjxjaXJjbGUgY3g9IjMyIiBjeT0iMzEuOTk5IiBmaWxsPSIjMjM2NENFIiByPSIzMCIvPjxjaXJjbGUgY3g9IjMyIiBjeT0iMzEuOTk5IiBmaWxsPSIjMjM2NENFIiByPSIzMCIvPjxwYXRoIGQ9Ik01My4yMTQsMTAuNzg3YzExLjcxNywxMS43MTYsMTEuNzE1LDMwLjcwOSwwLDQyLjQyNUM0MS40OTcsNjQuOTI5LDIyLjUwMyw2NC45MywxMC43ODcsNTMuMjEzIiBmaWxsPSIjMDc0QUFBIi8+PHBhdGggZD0iTTQuMzM0LDM0LjMzMmMwLTE2LjU2OCwxMy40MzItMjkuOTk5LDMwLTI5Ljk5OWM3LjY4OCwwLDE0LjcsMi44OTYsMjAuMDA5LDcuNjUxICAgQzQ4Ljg1MSw1Ljg1Nyw0MC44NzcsMiwzMiwyQzE1LjQzMiwyLDIsMTUuNDMxLDIsMzEuOTk5YzAsOC44OCwzLjg2LDE2Ljg1Niw5Ljk5MSwyMi4zNDlDNy4yMzIsNDkuMDM4LDQuMzM0LDQyLjAyNSw0LjMzNCwzNC4zMzJ6ICAgIiBmaWxsPSIjMzk4MUVBIi8+PGc+PHBhdGggZD0iTTIzLjgwMywxNi4yMjljLTIuNTk1LDAtNS4zMTMsMC4wNTMtNi45OTMsMC4xMzJjLTAuMjEsMC0wLjgxLDAuMTMyLTAuODEsMC4zMTZ2MjcuODg2ICAgIEMxNiw0NC44LDE2LjEzMiw0NSwxNi4zNDIsNDVoNC4yOTRDMjAuODcyLDQ1LDIxLDQ0LjcxMiwyMSw0NC41MDF2LTkuNjI0YzEsMCwxLjEwMiwwLjA1NCwyLjA5OCwwLjA1NCAgICBjNS45MjIsMCwxMC43NjktMi44NzYsMTAuNzY5LTkuNTc1QzMzLjg2NiwyMC4yMzcsMzEuMDYyLDE2LjIyOSwyMy44MDMsMTYuMjI5eiBNMjMuMTg4LDMwLjczNmMtMS4wNSwwLTEuMTg4LDAtMi4xODgtMC4wNTMgICAgVjIwLjUwM2MxLTAuMDI3LDEuNTM0LTAuMDgxLDIuNTgxLTAuMDgxYzMuNDg1LDAsNS41NTYsMS42ODgsNS41NTYsNS4wNEMyOS4xMzcsMjkuNjU1LDI2LjI1NCwzMC43MzYsMjMuMTg4LDMwLjczNnoiIGZpbGw9IiNDOEQ4RTgiLz48cGF0aCBkPSJNNDQuMTM4LDMyLjUzYy0yLjc3OS0xLjQ1MS0zLjI0OC0yLjExLTMuMjQ4LTMuMDYxYzAtMC44NjksMC43MDUtMS45MjUsMi43NzYtMS45MjUgICAgYzEuNzAyLDAsMy41OTYsMC40NDcsNC43NSwxLjE4N0M0OC42NzgsMjguODEyLDQ5LDI4LjY3OSw0OSwyOC40Njl2LTMuNjE0YzAtMC4xODUtMC4yNDQtMC4zOTYtMC40NTUtMC41MjcgICAgYy0wLjg2My0wLjM5Ni0yLjUyOS0wLjczOC00Ljc4My0wLjczOGMtNC41ODYsMC03LjI4LDIuODIyLTcuMjgsNi4yMjVjMCwzLjAzNCwxLjUyMiw0Ljg1NCw1LjI0Myw2LjY0NiAgICBjMi42NDYsMS4zNzEsMy4yMzYsMi4yMTcsMy4yMzYsMy4xNjVjMCwxLjE4OC0wLjg2OSwyLjA1OS0yLjkzOSwyLjA1OWMtMS43MywwLTMuODM3LTAuNDc2LTUuNDg3LTEuNTU3ICAgIEMzNi4zNTEsMzkuOTk1LDM2LDQwLjA3NCwzNiw0MC4zMzd2My44NzljMCwwLjIxMSwwLjI0MSwwLjM0MiwwLjQyNSwwLjQyMWMxLjEyOCwwLjY2MSwzLjIwMiwxLjEzNSw1LjQ4MiwxLjEzNSAgICBjNC4zMjEsMCw3LjU3My0yLjI2OSw3LjU3My02LjQ4OEM0OS40OCwzNi40Niw0OC4yNTIsMzQuNTM1LDQ0LjEzOCwzMi41M3oiIGZpbGw9IiNGRkZGRkYiLz48L2c+PHBhdGggZD0iTTQ0LjEzOCwzMi41M2MtMi43NzktMS40NTEtMy4yNDgtMi4xMS0zLjI0OC0zLjA2MWMwLTAuODY5LDAuNzA1LTEuOTI1LDIuNzc2LTEuOTI1ICAgYzEuNzAyLDAsMy41OTYsMC40NDcsNC43NSwxLjE4N0M0OC42NzgsMjguODEyLDQ5LDI4LjY3OSw0OSwyOC40Njl2LTMuNjE0YzAtMC4xODUtMC4yNDQtMC4zOTYtMC40NTUtMC41MjcgICBjLTAuODYzLTAuMzk2LTIuNTI5LTAuNzM4LTQuNzgzLTAuNzM4Yy00LjU4NiwwLTcuMjgsMi44MjItNy4yOCw2LjIyNWMwLDMuMDM0LDEuNTIyLDQuODU0LDUuMjQzLDYuNjQ2ICAgYzIuNjQ2LDEuMzcxLDMuMjM2LDIuMjE3LDMuMjM2LDMuMTY1YzAsMS4xODgtMC44NjksMi4wNTktMi45MzksMi4wNTljLTEuNzMsMC0zLjgzNy0wLjQ3Ni01LjQ4Ny0xLjU1NyAgIEMzNi4zNTEsMzkuOTk1LDM2LDQwLjA3NCwzNiw0MC4zMzd2My44NzljMCwwLjIxMSwwLjI0MSwwLjM0MiwwLjQyNSwwLjQyMWMxLjEyOCwwLjY2MSwzLjIwMiwxLjEzNSw1LjQ4MiwxLjEzNSAgIGM0LjMyMSwwLDcuNTczLTIuMjY5LDcuNTczLTYuNDg4QzQ5LjQ4LDM2LjQ2LDQ4LjI1MiwzNC41MzUsNDQuMTM4LDMyLjUzeiIgZmlsbD0iI0ZGRkZGRiIvPjxnPjxnPjxwYXRoIGQ9Ik0xNi44MSwxNy42OTNjMS42OC0wLjA3OSw0LjI4Mi0wLjEzMiw2Ljg3Ny0wLjEzMmM2Ljg5OCwwLDkuODQ5LDMuNjIzLDEwLjEyLDguMzc1ICAgICBjMC4wMS0wLjE5NCwwLjA1Ni0wLjM4LDAuMDU2LTAuNTgxYzAtNS4xMTgtMi44MTUtOS4xMjctMTAuMDc0LTkuMTI3Yy0yLjU5NSwwLTUuMzA2LDAuMDUzLTYuOTg1LDAuMTMyICAgICBjLTAuMjExLDAtMC44MDMsMC4xMzItMC44MDMsMC4zMTZ2MS4zMzNDMTYsMTcuODI0LDE2LjYsMTcuNjkzLDE2LjgxLDE3LjY5M3oiIGZpbGw9IiNGRkZGRkYiLz48cGF0aCBkPSJNMjMuMTg4LDMyLjA2OWMzLjA2NSwwLDUuOTgtMS4wODEsNS45OC01LjI3NGMwLTAuMTg1LTAuMDE1LTAuMzQ0LTAuMDI2LTAuNTIgICAgIGMtMC4zNTUsMy41Mi0zLjEwNiw0LjQ2MS01Ljk2Miw0LjQ2MWMtMS4wNSwwLTEuMTgxLDAtMi4xODEtMC4wNTN2MS4zMzNDMjIsMzIuMDY5LDIyLjEzOSwzMi4wNjksMjMuMTg4LDMyLjA2OXoiIGZpbGw9IiNGRkZGRkYiLz48L2c+PGc+PHBhdGggZD0iTTQ0LjEzOCwzMi41M2MtMi4wNTctMS4wNzMtMi44NDYtMS43MTQtMy4xMTctMi4zNTljLTAuMTk1LTAuNTk3LTAuMTUzLTAuNTcyLTAuMTUzLTAuMzY3ICAgICBjMCwwLjk1LDAuNDkxLDIuNjA4LDMuMjcxLDQuMDZjMy43NzEsMS44MzgsNS4wOTgsMy43NDQsNS4zMDQsNi4yMDFjMC4wMTgtMC4yMTMsMC4wMzktMC41NTksMC4wMzktMC43ODEgICAgIEM0OS40OCwzNi40Niw0OC4yNTIsMzQuNTM1LDQ0LjEzOCwzMi41M3oiIGZpbGw9IiNDOEQ4RTgiLz48cGF0aCBkPSJNMzYuNTMxLDQxLjQ2YzEuNjUsMS4wODEsMy42NDYsMS41NTcsNS4zNzYsMS41NTdjMi4wNywwLDIuOTg3LTAuODcxLDIuOTg3LTIuMDU5ICAgICBjMC0wLjIyMSwwLjAxMi0wLjM2OC0wLjA3MS0wLjU4NGMtMC4zNywwLjc4My0xLjE3NCwxLjMxLTIuODIxLDEuMzFjLTEuNzMsMC0zLjgyNy0wLjQ3Ni01LjQ3OC0xLjU1NyAgICAgQzM2LjM0MSwzOS45OTUsMzYsNDAuMDc0LDM2LDQwLjMzN3YxLjMzM0MzNiw0MS40MDYsMzYuMzQ4LDQxLjMyOCwzNi41MzEsNDEuNDZ6IiBmaWxsPSIjQzhEOEU4Ii8+PHBhdGggZD0iTTQzLjY2NiwyNC45MjJjMi4yNTQsMCw0LjAxNiwwLjM0Miw0Ljg3OSwwLjczOEM0OC43NTYsMjUuNzkxLDQ5LDI2LjAwMyw0OSwyNi4xODh2LTEuMzMzICAgICBjMC0wLjE4NS0wLjI0NC0wLjM5Ni0wLjQ1NS0wLjUyN2MtMC44NjMtMC4zOTYtMi41MjktMC43MzgtNC43ODMtMC43MzhjLTQuNTg2LDAtNy4yOCwyLjgyMi03LjI4LDYuMjI1ICAgICBjMCwwLjIyLDAuMDAzLDAuNDE4LDAuMDE5LDAuNjI0QzM2Ljg0NCwyNy4zNjEsMzkuNDAzLDI0LjkyMiw0My42NjYsMjQuOTIyeiIgZmlsbD0iI0M4RDhFOCIvPjwvZz48L2c+PC9nPjwvc3ZnPg==" alt="Logotipo do Desenvolvedor">
+      </div>
+      <div class="col-md-6 text-right text-uppercase text-title">
+        <h1 class="text-thin title-super title-responsive">Philipe Saviott</h1>
+        <h3 class="title-responsive title-cargo">Front-end Developer</h3>
+      </div>
+    </header>
+    <div class="row">
+      <div class="col-md-12">
+        <hr class="line-sep">
+      </div>
+    </div>
+    <section class="row">
+      <article class="col-md-12 img-logo">
+        <picture class="img-responsive banner">
+          <source media="(min-width: 1200px)" srcset="images/new-top-work-3200.jpg 2x, images/top-work-1600.jpg 1x" />
+          <source media="(min-width: 800px)" srcset="images/top-work-1600.jpg 2x, images/top-work-800.jpg 1x" />
+          <source media="(min-width: 400px)" srcset="images/top-work-800.jpg 2x, images/top-work-400.jpg 1x" />
+          <img src="images/top-work-400.jpg" alt="Principal projeto desenvolvido.">
+        </picture>
+      </article>
+    </section>
+    <section class="row">
+      <header class="col-md-12">
+        <h2 class="text-muted text-work">Featured Work</h2>
+      </header>
+    </section>
+    <section class="row text-center line-5">
+      <article class="col-md-4 work1">
+        <picture data-toggle="modal" data-target="#project1" class="img-responsive imgs-work">
+          <source media="(min-width: 800px)" srcset="images/food-1000.jpg 2x, images/food-500.jpg" />
+          <source media="(min-width: 500px)" srcset="images/food-500.jpg 2x, images/food-300.jpg 1x" />
+          <img src="images/food-300.jpg" alt="Projeto desenvolvido para Restaurante.">
+        </picture>
+        <header>
+          <h3 class="work-text">Appify</h3>
+        </header>
+        <footer>
+          <p class="work-text"><a href="http://github.com">Link to project</a></p>
+        </footer>
+      </article>
+      <article class="col-md-4 work2">
+        <picture data-toggle="modal" data-target="#project2" class="img-responsive imgs-work">
+          <source media="(min-width: 800px)" srcset="images/seasub-1000.jpg 2x, images/seasub-500.jpg 1x" />
+          <source media="(min-width: 500px)" srcset="images/seasub-500.jpg 2x, images/seasub-300.jpg 1x" />
+          <img src="images/seasub-300.jpg" alt="Projeto desenvolvido para empresa de turismo.">
+        </picture>
+        <header>
+          <h3 class="work-text">Appify</h3>
+        </header>
+        <footer>
+          <p class="work-text"><a href="http://github.com">Link to project</a></p>
+        </footer>
+      </article>
+      <article class="col-md-4 work3">
+        <picture data-toggle="modal" data-target="#project3" class="img-responsive imgs-work">
+          <source media="(min-width: 800px)" srcset="images/the-sun-1000.jpg 2x, images/the-sun-500.jpg 1x" />
+          <source media="(min-width: 500px)" srcset="images/the-sun-500.jpg 2x, images/the-sun-300.jpg 1x" />
+          <img src="images/the-sun-300.jpg" alt="Projeto desenvolvido para empresa espacial.">
+        </picture>
+        <header>
+          <h3 class="work-text">Appify</h3>
+        </header>
+        <footer>
+          <p class="work-text"><a href="http://github.com">Link to project</a></p>
+        </footer>
+      </article>
+    </section>
+  </div>
+  <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel1">Favorite App Page</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="images/555.jpeg" alt=""> Este foi meu primeiro projeto nesta aula. Aprendi muito sobre HTML e CSS.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel2">Favorite App Page</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="images/555.jpeg" alt=""> Este foi meu primeiro projeto nesta aula. Aprendi muito sobre HTML e CSS.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel3">Favorite App Page</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="images/555.jpeg" alt=""> Este foi meu primeiro projeto nesta aula. Aprendi muito sobre HTML e CSS.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
