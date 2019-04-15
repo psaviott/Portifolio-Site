@@ -1,6 +1,6 @@
 # Portifolio Site
 
-This project is part of the Nanodegree Udacity Front-End Web Developer course. In it, an optmized and responsive web-site was developed using knowledge in HTML, CSS and JavaScript languages.
+This project is part of the Nanodegree Udacity Front-End Web Developer course. In it, an optmized and responsive web-site was developed using knowledge in HTML, CSS. Node.js and JSON files.
 
 ## Getting Started
 
