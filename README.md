@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-To run this web game app you just need a web browser like these:
+To run this web page you just need a web browser like these:
 
 * [Firefox](https://www.mozilla.org/pt-BR/firefox/ "Mozila Firefox Web page")
 * [Chrome](https://www.google.com.br/chrome/ "Google Chrome Web page")
